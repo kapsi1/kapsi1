@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  padding: 30px 80px;
+  width: 850px;
+}
+nav {
+  flex: 1.1;
+  padding-right: 5%;
+}
+nav img {
+  width: 100%;
+}
+main {
+  flex: 3;
+}
+main h2 {
+  color: #A80000;
+}
+main h2:first-of-type {
+  margin-top: 0;
+}
+main .panel {
+  background-color: #f5f5f5;
+  padding: 1px 20px;
+  margin-bottom: 10px;
+}
+main .panel li {
+  line-height: 1.563;
+}
