@@ -1,0 +1,1 @@
+fetch('localhost:7777').then(res => res.text()).then(res => console.log(res));
